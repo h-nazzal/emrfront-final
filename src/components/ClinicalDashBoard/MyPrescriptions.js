@@ -32,7 +32,7 @@ const MyPrescriptions = ({ match }) => {
   const [open, setOpen] = React.useState(false)
   const [loading, setLoading] = React.useState(false)
   const [drugModal, setDrugModal] = React.useState(false)
-  const base_url = 'http://localhost:8080'
+  const base_url = 'https://emrtest.herokuapp.com/'
 
   const ptId = match.params.id
 

@@ -57,7 +57,7 @@ const DiagnoseScreen = ({ match }) => {
   const [unresolved, setUnResolved] = useState([])
   const [value, setValue] = React.useState(0)
   const [loading, setLoading] = React.useState(false)
-  const base_url = 'http://localhost:8080'
+  const base_url = 'https://emrtest.herokuapp.com/'
   const handleChange = (event, newValue) => {
     setValue(newValue)
   }

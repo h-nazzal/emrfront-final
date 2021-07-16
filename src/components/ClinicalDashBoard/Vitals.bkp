@@ -53,7 +53,7 @@ const VisitScreen = ({ match }) => {
   useEffect(() => {
     if (!match.params.id) return
     axios
-      .post(`http://localhost:8080/nurse/getByPtId`, {
+      .post(`https://emrtest.herokuapp.com//nurse/getByPtId`, {
         ptId: match.params.id,
         type: 'patient'
       })

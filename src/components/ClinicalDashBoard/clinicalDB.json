@@ -67,12 +67,12 @@
     },
     "title": "All Allergies ",
     "description": "You can see all Allergies for this patient...",
-    "getAllergyProblemsForPatient": "http://localhost:8080/pt/getAllergyByIdCB",
-    "getAll": "http://localhost:8080/pt/getAllergyByIdCB",
-    "getAllAllergy": "http://localhost:8080/disease/getAll",
-    "adding": "http://localhost:8080/pt/addOneAllergy",
-    "delete": "http://localhost:8080/pt/deleteOnePtAllergy",
-    "resolve": "http://localhost:8080/pt/resolveOnePtAllergy"
+    "getAllergyProblemsForPatient": "https://emrtest.herokuapp.com//pt/getAllergyByIdCB",
+    "getAll": "https://emrtest.herokuapp.com//pt/getAllergyByIdCB",
+    "getAllAllergy": "https://emrtest.herokuapp.com//disease/getAll",
+    "adding": "https://emrtest.herokuapp.com//pt/addOneAllergy",
+    "delete": "https://emrtest.herokuapp.com//pt/deleteOnePtAllergy",
+    "resolve": "https://emrtest.herokuapp.com//pt/resolveOnePtAllergy"
   },
 
   "onGoingProblems": {
@@ -124,12 +124,12 @@
     },
     "title": "All OnGoingProblems ",
     "description": "You can see all OnGoingProblems broblems for this patient...",
-    "getAllergyProblemsForPatient": "http://localhost:8080/pt/getProblemsById",
-    "getAll": "http://localhost:8080/visit/getProblemsCD",
-    "getAllDiseases": "http://localhost:8080/disease/getAll",
-    "adding": "http://localhost:8080/visit/addproblemCB",
-    "delete": "http://localhost:8080/pt/deleteOnePtProblem",
-    "resolve": "http://localhost:8080/pt/resolveOnePtProblem"
+    "getAllergyProblemsForPatient": "https://emrtest.herokuapp.com//pt/getProblemsById",
+    "getAll": "https://emrtest.herokuapp.com//visit/getProblemsCD",
+    "getAllDiseases": "https://emrtest.herokuapp.com//disease/getAll",
+    "adding": "https://emrtest.herokuapp.com//visit/addproblemCB",
+    "delete": "https://emrtest.herokuapp.com//pt/deleteOnePtProblem",
+    "resolve": "https://emrtest.herokuapp.com//pt/resolveOnePtProblem"
   },
 
   "familyHistory": {
@@ -179,10 +179,10 @@
     },
     "title": "Family History",
     "description": "You will see here all Family History to this Patient....",
-    "getAllDiseases": "http://localhost:8080/disease/getAll",
-    "getAll": "http://localhost:8080/visit/pt_familyHistories",
-    "adding": "http://localhost:8080/visit/addfamilyHistories",
-    "delete": "http://localhost:8080/pt/deleteOnept_familyHistories"
+    "getAllDiseases": "https://emrtest.herokuapp.com//disease/getAll",
+    "getAll": "https://emrtest.herokuapp.com//visit/pt_familyHistories",
+    "adding": "https://emrtest.herokuapp.com//visit/addfamilyHistories",
+    "delete": "https://emrtest.herokuapp.com//pt/deleteOnept_familyHistories"
   },
   "surgeries": {
     "state": {
@@ -232,10 +232,10 @@
     },
     "title": "All Surgeries for this Patient",
     "description": "You will see here all Surgeries to this Patient....",
-    "getAllDiseases": "http://localhost:8080/surgery/getAll",
-    "getAll": "http://localhost:8080/visit/pt_surgery_histories",
-    "adding": "http://localhost:8080/visit/addsurgerycb",
-    "delete": "http://localhost:8080/pt/deleteOnept_surgery_histories"
+    "getAllDiseases": "https://emrtest.herokuapp.com//surgery/getAll",
+    "getAll": "https://emrtest.herokuapp.com//visit/pt_surgery_histories",
+    "adding": "https://emrtest.herokuapp.com//visit/addsurgerycb",
+    "delete": "https://emrtest.herokuapp.com//pt/deleteOnept_surgery_histories"
   },
   "Interventions": {
     "state": {
@@ -284,10 +284,10 @@
     },
     "title": "All Interventions for this Patient",
     "description": "You will see here all Interventions.",
-    "adding": "http://localhost:8080/visit/addpt_interventions",
+    "adding": "https://emrtest.herokuapp.com//visit/addpt_interventions",
 
-    "getAll": "http://localhost:8080/visit/pt_interventions",
-    "delete": "http://localhost:8080/pt/deleteOnept_interventions"
+    "getAll": "https://emrtest.herokuapp.com//visit/pt_interventions",
+    "delete": "https://emrtest.herokuapp.com//pt/deleteOnept_interventions"
   },
   "activeMedication": {
     "state": {
@@ -311,7 +311,7 @@
     },
     "title": "All Active Medication for this Patient",
     "description": "You will see here all Active Medications to this Patient.",
-    "getAllDiseases": "http://localhost:8080/disease/getAll"
+    "getAllDiseases": "https://emrtest.herokuapp.com//disease/getAll"
   },
   "Vitals": {
     "state": {
@@ -363,7 +363,7 @@
       },
       "title": " Patient Vitals ",
       "description": "From here you can monitor vitals",
-      "getAll": "http://localhost:8080/nurse/getByPtId"
+      "getAll": "https://emrtest.herokuapp.com//nurse/getByPtId"
     }
   }
 }
