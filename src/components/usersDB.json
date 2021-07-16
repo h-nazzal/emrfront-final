@@ -52,10 +52,10 @@
     },
     "title": "All users",
     "description": "simple blah blah this the page and what it dose you know stuff..",
-    "addUser": "http://localhost:8080/autho/register",
+    "addUser": "https://emrtest.herokuapp.com//autho/register",
     "deleteUser": "http://localhost:3000/doctor/deleteDoctor",
     "updateUser": "http://localhost:3000/doctor/updateDoctor",
-    "getAll": "http://localhost:8080/doctor/getAll"
+    "getAll": "https://emrtest.herokuapp.com//doctor/getAll"
   },
   "doctor": {
     "state": {
@@ -206,11 +206,11 @@
     },
     "title": "All Doctors",
     "description": "You will see all Doctor Here..",
-    "addUser": "http://localhost:8080/doctor/addDoctor",
-    "deleteUser": "http://localhost:8080/doctor/deleteDoctor",
-    "updateUser": "http://localhost:8080/doctor/updateDoctor",
-    "getAll": "http://localhost:8080/doctor/getDoctor",
-    "getAllDataFD": "http://localhost:8080/frontdisk/getDoctorFD"
+    "addUser": "https://emrtest.herokuapp.com//doctor/addDoctor",
+    "deleteUser": "https://emrtest.herokuapp.com//doctor/deleteDoctor",
+    "updateUser": "https://emrtest.herokuapp.com//doctor/updateDoctor",
+    "getAll": "https://emrtest.herokuapp.com//doctor/getDoctor",
+    "getAllDataFD": "https://emrtest.herokuapp.com//frontdisk/getDoctorFD"
   },
   "nurse": {
     "state": {
@@ -336,11 +336,11 @@
     },
     "title": "All Nurses",
     "description": "You can see All Nurses here..",
-    "addUser": "http://localhost:8080/nurse/addNurse",
-    "deleteUser": "http://localhost:8080/nurse/deleteNurse",
-    "updateUser": "http://localhost:8080/nurse/updateNurse",
-    "getAll": "http://localhost:8080/nurse/getNurse",
-    "getAllDataFD": "http://localhost:8080/doctor/getDoctor"
+    "addUser": "https://emrtest.herokuapp.com//nurse/addNurse",
+    "deleteUser": "https://emrtest.herokuapp.com//nurse/deleteNurse",
+    "updateUser": "https://emrtest.herokuapp.com//nurse/updateNurse",
+    "getAll": "https://emrtest.herokuapp.com//nurse/getNurse",
+    "getAllDataFD": "https://emrtest.herokuapp.com//doctor/getDoctor"
   },
   "pathologist": {
     "state": {
@@ -450,11 +450,11 @@
     },
     "title": "All Pathologists",
     "description": "You can see All Pathologists here...",
-    "addUser": "http://localhost:8080/patho/addPathology",
-    "deleteUser": "http://localhost:8080/patho/deletePathology",
-    "updateUser": "http://localhost:8080/patho/updatePathology",
-    "getAll": "http://localhost:8080/patho/getPathology",
-    "getAllDataFD": "http://localhost:8080/frontdisk/getpathoFD"
+    "addUser": "https://emrtest.herokuapp.com//patho/addPathology",
+    "deleteUser": "https://emrtest.herokuapp.com//patho/deletePathology",
+    "updateUser": "https://emrtest.herokuapp.com//patho/updatePathology",
+    "getAll": "https://emrtest.herokuapp.com//patho/getPathology",
+    "getAllDataFD": "https://emrtest.herokuapp.com//frontdisk/getpathoFD"
   },
   "radiogist": {
     "state": {
@@ -573,11 +573,11 @@
     },
     "title": "All radiogists",
     "description": "You can see all Radiogists here..",
-    "addUser": "http://localhost:8080/radiology/addRadiology",
-    "deleteUser": "http://localhost:8080/radiology/deleteradiology",
-    "updateUser": "http://localhost:8080/radiology/updateradiology",
-    "getAll": "http://localhost:8080/radiology/getRadiology",
-    "getAllDataFD": "http://localhost:8080/frontdisk/getradioFD"
+    "addUser": "https://emrtest.herokuapp.com//radiology/addRadiology",
+    "deleteUser": "https://emrtest.herokuapp.com//radiology/deleteradiology",
+    "updateUser": "https://emrtest.herokuapp.com//radiology/updateradiology",
+    "getAll": "https://emrtest.herokuapp.com//radiology/getRadiology",
+    "getAllDataFD": "https://emrtest.herokuapp.com//frontdisk/getradioFD"
   },
   "chemist": {
     "state": {
@@ -685,11 +685,11 @@
     },
     "title": "All Chemists",
     "description": "You can see all Chemists here...",
-    "addUser": "http://localhost:8080/chemist/addChemist",
-    "deleteUser": "http://localhost:8080/chemist/deleteChemist",
-    "updateUser": "http://localhost:8080/chemist/updateChemist",
-    "getAll": "http://localhost:8080/chemist/getChemist",
-    "getAllDataFD": "http://localhost:8080/frontdisk/getlabFD"
+    "addUser": "https://emrtest.herokuapp.com//chemist/addChemist",
+    "deleteUser": "https://emrtest.herokuapp.com//chemist/deleteChemist",
+    "updateUser": "https://emrtest.herokuapp.com//chemist/updateChemist",
+    "getAll": "https://emrtest.herokuapp.com//chemist/getChemist",
+    "getAllDataFD": "https://emrtest.herokuapp.com//frontdisk/getlabFD"
   },
   "assistant": {
     "state": {
@@ -816,10 +816,10 @@
     },
     "title": "All Assistant",
     "description": "You can see All Assistants here..",
-    "addUser": "http://localhost:8080/assistant/addAssistant",
-    "deleteUser": "http://localhost:8080/assistant/deleteAssistant",
-    "updateUser": "http://localhost:8080/assistant/updateAssistant",
-    "getAll": "http://localhost:8080/assistant/getAssistant"
+    "addUser": "https://emrtest.herokuapp.com//assistant/addAssistant",
+    "deleteUser": "https://emrtest.herokuapp.com//assistant/deleteAssistant",
+    "updateUser": "https://emrtest.herokuapp.com//assistant/updateAssistant",
+    "getAll": "https://emrtest.herokuapp.com//assistant/getAssistant"
   },
 
   "labFD": {
@@ -911,11 +911,11 @@
     },
     "title": "All Lab FrontDisks",
     "description": "You can see All Lab FrontDists here..",
-    "addUser": "http://localhost:8080/frontdisk/addLabFrontDisk",
-    "deleteUser": "http://localhost:8080/frontdisk/deletelabFD",
-    "updateUser": "http://localhost:8080/frontdisk/updatelabFD",
-    "getAll": "http://localhost:8080/frontdisk/getlabFD",
-    "getAllDataFD": "http://localhost:8080/lab/getAll",
+    "addUser": "https://emrtest.herokuapp.com//frontdisk/addLabFrontDisk",
+    "deleteUser": "https://emrtest.herokuapp.com//frontdisk/deletelabFD",
+    "updateUser": "https://emrtest.herokuapp.com//frontdisk/updatelabFD",
+    "getAll": "https://emrtest.herokuapp.com//frontdisk/getlabFD",
+    "getAllDataFD": "https://emrtest.herokuapp.com//lab/getAll",
     "getLabIdInSession": ""
   },
   "radioFD": {
@@ -1004,11 +1004,11 @@
     },
     "title": "All Radios FrontDisks",
     "description": "You can see here all Radios FrontDisks..",
-    "addUser": "http://localhost:8080/frontdisk/addradioFrontDisk",
-    "deleteUser": "http://localhost:8080/frontdisk/deleteradioFD",
-    "updateUser": "http://localhost:8080/frontdisk/updateradioFD",
-    "getAll": "http://localhost:8080/frontdisk/getradioFD",
-    "getAllDataFD": "http://localhost:8080/radio/getAll",
+    "addUser": "https://emrtest.herokuapp.com//frontdisk/addradioFrontDisk",
+    "deleteUser": "https://emrtest.herokuapp.com//frontdisk/deleteradioFD",
+    "updateUser": "https://emrtest.herokuapp.com//frontdisk/updateradioFD",
+    "getAll": "https://emrtest.herokuapp.com//frontdisk/getradioFD",
+    "getAllDataFD": "https://emrtest.herokuapp.com//radio/getAll",
     "getLabIdInSession": ""
   },
   "pathologyFD": {
@@ -1106,11 +1106,11 @@
     },
     "title": "All pathology FrontDisks",
     "description": "You can see all Pathology FrontDisks..",
-    "addUser": "http://localhost:8080/frontdisk/addpathoFrontDisk",
-    "deleteUser": "http://localhost:8080/frontdisk/deletepathobFD",
-    "updateUser": "http://localhost:8080/frontdisk/updatepathoFD",
-    "getAll": "http://localhost:8080/frontdisk/getpathoFD",
-    "getAllDataFD": "http://localhost:8080/patho/getAll",
+    "addUser": "https://emrtest.herokuapp.com//frontdisk/addpathoFrontDisk",
+    "deleteUser": "https://emrtest.herokuapp.com//frontdisk/deletepathobFD",
+    "updateUser": "https://emrtest.herokuapp.com//frontdisk/updatepathoFD",
+    "getAll": "https://emrtest.herokuapp.com//frontdisk/getpathoFD",
+    "getAllDataFD": "https://emrtest.herokuapp.com//patho/getAll",
     "getLabIdInSession": ""
   },
   "doctorFD": {
@@ -1199,11 +1199,11 @@
     },
     "title": "All Doctor FrontDisks",
     "description": "See All Doctor FrontDisks here..",
-    "addUser": "http://localhost:8080/frontdisk/addDoctorFD",
-    "deleteUser": "http://localhost:8080/frontdisk/deleteDoctorFD",
-    "updateUser": "http://localhost:8080/frontdisk/updateDoctorFD",
-    "getAll": "http://localhost:8080/frontdisk/getDoctorFD",
-    "getAllDataFD": "http://localhost:8080/doctor/getDoctor",
+    "addUser": "https://emrtest.herokuapp.com//frontdisk/addDoctorFD",
+    "deleteUser": "https://emrtest.herokuapp.com//frontdisk/deleteDoctorFD",
+    "updateUser": "https://emrtest.herokuapp.com//frontdisk/updateDoctorFD",
+    "getAll": "https://emrtest.herokuapp.com//frontdisk/getDoctorFD",
+    "getAllDataFD": "https://emrtest.herokuapp.com//doctor/getDoctor",
     "getLabIdInSession": ""
   },
   "pharmacist": {
@@ -1302,10 +1302,10 @@
     "title": "All Pharmacists",
     "description": "You can see All Pharmacists here...",
 
-    "addUser": "http://localhost:8080/pharmacist/addPharmacist",
-    "deleteUser": "http://localhost:8080/pharmacist/deletePharmacist",
-    "updateUser": "http://localhost:8080/pharmacist/updatePharmacist",
-    "getAll": "http://localhost:8080/pharmacist/getPharmacist"
+    "addUser": "https://emrtest.herokuapp.com//pharmacist/addPharmacist",
+    "deleteUser": "https://emrtest.herokuapp.com//pharmacist/deletePharmacist",
+    "updateUser": "https://emrtest.herokuapp.com//pharmacist/updatePharmacist",
+    "getAll": "https://emrtest.herokuapp.com//pharmacist/getPharmacist"
   },
   "client": {
     "state": {
@@ -1421,6 +1421,6 @@
     },
     "title": "All Pharmacists",
     "description": "You can see All Pharmacists here...",
-    "getAll": "http://localhost:8080/pt/findByAdmin"
+    "getAll": "https://emrtest.herokuapp.com//pt/findByAdmin"
   }
 }

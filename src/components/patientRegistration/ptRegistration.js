@@ -147,7 +147,7 @@ export default function HorizontalLabelPositionBelowStepper () {
     formBody = formBody.join('&')
     console.log('formBody:  ', formBody)
     setLoading(true)
-    fetch('http://localhost:8080/pt/addPT', {
+    fetch('https://emrtest.herokuapp.com//pt/addPT', {
       //** this will add patient */
       method: 'POST',
       headers: {

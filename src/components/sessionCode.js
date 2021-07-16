@@ -67,7 +67,7 @@ class SessionCode extends Component {
   handleSubmitForNavBarVisits = () => {
     console.log('Visit Submitting... : ')
     axios
-      .post(`http://localhost:8080/autho/getPtId`, {
+      .post(`https://emrtest.herokuapp.com//autho/getPtId`, {
         ptCode: this.state.code
       })
       .then(async resp => {
@@ -118,7 +118,7 @@ class SessionCode extends Component {
     ///*** edit it when adding sessionCode in Visit Module */
     console.log('here: ', this.props)
     axios
-      .post(`http://localhost:8080/autho/getPtId`, {
+      .post(`https://emrtest.herokuapp.com//autho/getPtId`, {
         ptCode: this.state.code
       })
       .then(async resp => {
@@ -131,7 +131,7 @@ class SessionCode extends Component {
   }
   handleSubmitForpharmacy = () => {
     axios
-      .post(`http://localhost:8080/autho/getPtId`, {
+      .post(`https://emrtest.herokuapp.com//autho/getPtId`, {
         ptCode: this.state.code
       })
       .then(async resp => {

@@ -134,7 +134,7 @@
         "placeHolder": "Choose Relation"
       }
     },
-    "getProblemsFromDB": "http://localhost:8080/disease/getAll"
+    "getProblemsFromDB": "https://emrtest.herokuapp.com//disease/getAll"
   },
   "surgeries": {
     "state": {
@@ -190,7 +190,7 @@
         "placeHolder": "Enter Date"
       }
     },
-    "getProblemsFromDB": "http://localhost:8080/surgery/getAll"
+    "getProblemsFromDB": "https://emrtest.herokuapp.com//surgery/getAll"
   },
   "onGoingProblems": {
     "state": {
@@ -232,7 +232,7 @@
         "placeHolder": "Date"
       }
     },
-    "getProblemsFromDB": "http://localhost:8080/disease/getAll"
+    "getProblemsFromDB": "https://emrtest.herokuapp.com//disease/getAll"
   },
   "interventionsStep": {
     "state": {
@@ -274,6 +274,6 @@
         "placeHolder": "Enter Note"
       }
     },
-    "getProblemsFromDB": "http://localhost:8080/disease/getAll"
+    "getProblemsFromDB": "https://emrtest.herokuapp.com//disease/getAll"
   }
 }

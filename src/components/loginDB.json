@@ -13,5 +13,5 @@
       "name": "password"
     }
   },
-  "addUser": "http://localhost:8080/autho/login/"
+  "addUser": "https://emrtest.herokuapp.com//autho/login/"
 }

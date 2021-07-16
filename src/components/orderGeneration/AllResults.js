@@ -171,7 +171,7 @@ class AllResults extends Component {
                       this.getTypeByID(row.id)
                       this.handleopenModal()
                       this.setState({ resultToShow: row.result })
-                      //  this.props.history.push(`http://localhost:8080/${this.state.type}/${row.result}`)
+                      //  this.props.history.push(`https://emrtest.herokuapp.com//${this.state.type}/${row.result}`)
                       this.setState({ resultStatus: 'show' })
                     }}
                   >
@@ -208,7 +208,7 @@ class AllResults extends Component {
             return (
               <div className='row'>
                 <div className='col-auto'>
-                  {/* <a  href= {`http://localhost:8080/${this.state.type}s/${row.result}`}> */}
+                  {/* <a  href= {`https://emrtest.herokuapp.com//${this.state.type}s/${row.result}`}> */}
 
                   <button
                     className='btn btn-primary'
@@ -220,7 +220,7 @@ class AllResults extends Component {
                       this.getTypeByID(row.id)
                       this.handleopenModal()
                       this.setState({ resultToShow: row.result })
-                      //  this.props.history.push(`http://localhost:8080/${this.state.type}/${row.result}`)
+                      //  this.props.history.push(`https://emrtest.herokuapp.com//${this.state.type}/${row.result}`)
                       this.setState({ resultStatus: 'show' })
                     }}
                   >
@@ -260,7 +260,7 @@ class AllResults extends Component {
       <div className='wrap'>
         <iframe
           style={{ height: '100%', width: '100%' }}
-          src={`http://localhost:8080/${
+          src={`https://emrtest.herokuapp.com//${
             this.state.type == 'lab'
               ? 'labs'
               : this.state.type == 'pathology'

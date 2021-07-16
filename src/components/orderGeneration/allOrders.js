@@ -190,7 +190,7 @@ class AllOrders extends Component {
     Form.append('orderId', this.state.typeObj['id'])
 
     console.log('heeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee')
-    // await fetch(`http://localhost:8080/visit/updateOrder`, {
+    // await fetch(`https://emrtest.herokuapp.com//visit/updateOrder`, {
     await fetch(`${orderType[this.state.type].uploadResult}`, {
       method: 'POST',
       body: Form
@@ -284,7 +284,7 @@ class AllOrders extends Component {
             return (
               <div className='row'>
                 <div className='col-auto'>
-                  {/* <a  href= {`http://localhost:8080/${this.state.type}s/${row.result}`}> */}
+                  {/* <a  href= {`https://emrtest.herokuapp.com//${this.state.type}s/${row.result}`}> */}
 
                   <button
                     className='btn btn-primary'
@@ -296,7 +296,7 @@ class AllOrders extends Component {
                       this.getTypeByID(row.id)
                       this.handleopenModal()
                       this.setState({ resultToShow: row.result })
-                      //  this.props.history.push(`http://localhost:8080/${this.state.type}/${row.result}`)
+                      //  this.props.history.push(`https://emrtest.herokuapp.com//${this.state.type}/${row.result}`)
                       this.setState({ resultStatus: 'show' })
                     }}
                   >
@@ -352,7 +352,7 @@ class AllOrders extends Component {
       <div className='wrap'>
         <iframe
           style={{ height: '100%', width: '100%' }}
-          src={`http://localhost:8080/${
+          src={`https://emrtest.herokuapp.com//${
             this.state.type == 'lab'
               ? 'labs'
               : this.state.type == 'pathology'

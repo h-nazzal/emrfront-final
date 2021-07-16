@@ -103,7 +103,7 @@ const ChangePassword = () => {
     }
     formBody = formBody.join('&')
 
-    await fetch('http://localhost:8080/autho/updatePass', {
+    await fetch('https://emrtest.herokuapp.com//autho/updatePass', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'

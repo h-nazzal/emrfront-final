@@ -119,7 +119,7 @@ export default function Procedures ({
   ]
   const loadAllSurgeries = () => {
     axios
-      .get('http://localhost:8080/surgery/getAll')
+      .get('https://emrtest.herokuapp.com//surgery/getAll')
       .then(res => {
         setSurgys(res.data)
       })

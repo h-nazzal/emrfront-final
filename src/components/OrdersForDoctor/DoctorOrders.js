@@ -163,7 +163,7 @@ class AllOrdersForDoctor extends Component {
     Form.append('orderId', this.state.typeObj['id'])
     this.setState({ loading: true })
 
-    await fetch(`http://localhost:8080/visit/updateOrder`, {
+    await fetch(`https://emrtest.herokuapp.com//visit/updateOrder`, {
       method: 'POST',
       body: Form
     })
@@ -324,7 +324,7 @@ class AllOrdersForDoctor extends Component {
       <div className='wrap'>
         <iframe
           style={{ height: '100%', width: '100%' }}
-          src={`http://localhost:8080/${
+          src={`https://emrtest.herokuapp.com//${
             this.state.type == 'lab'
               ? 'labs'
               : this.state.type == 'pathology'

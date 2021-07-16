@@ -33,7 +33,7 @@ const NavBar = props => {
   var name = 'AlaaMensh'
   var userID = localStorage.getItem('userId')
   const mypiclink =
-    'http://localhost:8080/images/' + localStorage.getItem('image')
+    'https://emrtest.herokuapp.com//images/' + localStorage.getItem('image')
   const handleClick = event => {
     setShowProfile(!showProfile)
     setTarget(event.target)
@@ -50,9 +50,9 @@ const NavBar = props => {
     data.append('userId', localStorage.getItem('userId'))
     setLoading(true)
 
-    // axios.post('http://localhost:8080/authenticate/update_phote',data).then(result=>{
+    // axios.post('https://emrtest.herokuapp.com//authenticate/update_phote',data).then(result=>{
     axios
-      .post('http://localhost:8080/profile/photo', data)
+      .post('https://emrtest.herokuapp.com//profile/photo', data)
       .then(result => {
         setLoading(false)
         console.log(result.data)

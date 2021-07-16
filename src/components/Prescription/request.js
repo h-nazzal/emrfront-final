@@ -1,5 +1,5 @@
 import axios from 'axios'
-const base_url = 'http://localhost:8080'
+const base_url = 'https://emrtest.herokuapp.com/'
 
 export const AddPrescriptionToDB = data => {
   return new Promise((resolve, reject) => {

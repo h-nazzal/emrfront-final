@@ -4,7 +4,7 @@ import FormGenerator from '../Forms/formGeneration'
 import inputs from '../ordersdb.json'
 import Spinner from '../shared/Spinner'
 
-const base_url = 'http://localhost:8080'
+const base_url = 'https://emrtest.herokuapp.com/'
 
 class AddOrderForm extends Component {
   constructor (props) {

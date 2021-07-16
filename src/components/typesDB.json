@@ -42,10 +42,10 @@
         "placeHolder": "Choose Allergy Type"
       }
     },
-    "addType": "http://localhost:8080/allergy/addAllergy",
-    "deleteType": "http://localhost:8080/allergy/deleteAllergy",
-    "updateType": "http://localhost:8080/allergy/updateAllergy",
-    "getAll": "http://localhost:8080/allergy/getAllergy"
+    "addType": "https://emrtest.herokuapp.com//allergy/addAllergy",
+    "deleteType": "https://emrtest.herokuapp.com//allergy/deleteAllergy",
+    "updateType": "https://emrtest.herokuapp.com//allergy/updateAllergy",
+    "getAll": "https://emrtest.herokuapp.com//allergy/getAllergy"
   },
   "disease": {
     "state": {
@@ -99,10 +99,10 @@
     },
     "title": "All Diseases Types",
     "description": "You will find All Diseases here..",
-    "addType": "http://localhost:8080/disease/addDiseases",
-    "deleteType": "http://localhost:8080/disease/deleteDiseases",
-    "updateType": "http://localhost:8080/disease/updateDiseases",
-    "getAll": "http://localhost:8080/disease/getAll"
+    "addType": "https://emrtest.herokuapp.com//disease/addDiseases",
+    "deleteType": "https://emrtest.herokuapp.com//disease/deleteDiseases",
+    "updateType": "https://emrtest.herokuapp.com//disease/updateDiseases",
+    "getAll": "https://emrtest.herokuapp.com//disease/getAll"
   },
   "drug": {
     "state": {
@@ -132,10 +132,10 @@
     },
     "title": "All Drugs Types",
     "description": "You will find all Drugs here..",
-    "addType": "http://localhost:8080/drug/addDrug",
-    "deleteType": "http://localhost:8080/drug/deleteDrug",
-    "updateType": "http://localhost:8080/drug/updateDrug",
-    "getAll": "http://localhost:8080/drug/getAll"
+    "addType": "https://emrtest.herokuapp.com//drug/addDrug",
+    "deleteType": "https://emrtest.herokuapp.com//drug/deleteDrug",
+    "updateType": "https://emrtest.herokuapp.com//drug/updateDrug",
+    "getAll": "https://emrtest.herokuapp.com//drug/getAll"
   },
 
   "lab": {
@@ -181,10 +181,10 @@
         "placeHolder": "Enter Lab Abbreviation"
       }
     },
-    "addType": "http://localhost:8080/lab/addlab",
-    "deleteType": "http://localhost:8080/lab/deletelab",
-    "updateType": "http://localhost:8080/lab/updatedlab",
-    "getAll": "http://localhost:8080/lab/getAll"
+    "addType": "https://emrtest.herokuapp.com//lab/addlab",
+    "deleteType": "https://emrtest.herokuapp.com//lab/deletelab",
+    "updateType": "https://emrtest.herokuapp.com//lab/updatedlab",
+    "getAll": "https://emrtest.herokuapp.com//lab/getAll"
   },
   "pathology": {
     "state": {
@@ -229,10 +229,10 @@
         "placeHolder": "Enter Pathology abbreviation"
       }
     },
-    "addType": "http://localhost:8080/patho/addpatho",
-    "deleteType": "http://localhost:8080/patho/deletepatho",
-    "updateType": "http://localhost:8080/patho/updatedpatho",
-    "getAll": "http://localhost:8080/patho/getAll"
+    "addType": "https://emrtest.herokuapp.com//patho/addpatho",
+    "deleteType": "https://emrtest.herokuapp.com//patho/deletepatho",
+    "updateType": "https://emrtest.herokuapp.com//patho/updatedpatho",
+    "getAll": "https://emrtest.herokuapp.com//patho/getAll"
   },
   "radiology": {
     "state": {
@@ -277,10 +277,10 @@
         "placeHolder": "Enter Radio Abbreviation"
       }
     },
-    "addType": "http://localhost:8080/radio/addRadio",
-    "deleteType": "http://localhost:8080/radio/deleteRadio",
-    "updateType": "http://localhost:8080/radio/updatedRadio",
-    "getAll": "http://localhost:8080/radio/getAll"
+    "addType": "https://emrtest.herokuapp.com//radio/addRadio",
+    "deleteType": "https://emrtest.herokuapp.com//radio/deleteRadio",
+    "updateType": "https://emrtest.herokuapp.com//radio/updatedRadio",
+    "getAll": "https://emrtest.herokuapp.com//radio/getAll"
   },
   "surgeries": {
     "state": {
@@ -325,9 +325,9 @@
         "placeHolder": "Enter Surgery Abbreviation"
       }
     },
-    "addType": "http://localhost:8080/surgery/addsurgery",
-    "deleteType": "http://localhost:8080/surgery/deletesurgery",
-    "updateType": "http://localhost:8080/surgery/updatedsurgery",
-    "getAll": "http://localhost:8080/surgery/getAll"
+    "addType": "https://emrtest.herokuapp.com//surgery/addsurgery",
+    "deleteType": "https://emrtest.herokuapp.com//surgery/deletesurgery",
+    "updateType": "https://emrtest.herokuapp.com//surgery/updatedsurgery",
+    "getAll": "https://emrtest.herokuapp.com//surgery/getAll"
   }
 }

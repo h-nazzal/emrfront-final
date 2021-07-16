@@ -7,7 +7,7 @@ import pharmacyModule from '../pharmacyModuleDB.json'
 import Spinner from '../shared/Spinner'
 import DataTableComp from '../typesGenerator/dataTable'
 import ModalForView from './modalForView'
-const base_url = 'http://localhost:8080'
+const base_url = 'https://emrtest.herokuapp.com/'
 const data = {}
 const row = [
   { created_date: 'one', patientName: 'one', notes: 'one' },
