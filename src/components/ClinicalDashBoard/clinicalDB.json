@@ -1,0 +1,369 @@
+{
+  "allergy": {
+    "state": {
+      "name": "",
+      "status": "",
+      "date": ""
+    },
+    "columnsTable": {
+      "date": {
+        "name": "Date",
+        "selector": "date",
+        "sortable": true,
+        "center": true
+      },
+      "name": {
+        "name": "Name",
+        "selector": "name",
+        "sortable": true,
+        "center": true
+      },
+      "status": {
+        "name": "Status",
+        "selector": "status",
+        "sortable": true,
+        "center": true
+      },
+
+      "type": {
+        "name": "Type",
+        "selector": "type",
+        "sortable": true,
+        "center": true
+      },
+      "actionsR": {
+        "name": "actions",
+        "selector": "actions",
+        "sortable": false,
+        "center": true,
+        "width": "200px"
+      }
+    },
+    "modalAdditionForms": {
+      "name": {
+        "type": "autoComplete",
+        "name": "name",
+        "label": "Allergy Name",
+        "placeHolder": "Enter Allergy Name"
+      },
+
+      "status": {
+        "type": "select",
+        "name": "status",
+        "options": [
+          { "value": "Active", "text": "Active" },
+          { "value": "Resolved", "text": "Resolved" }
+        ],
+
+        "label": "Status"
+      },
+
+      "date": {
+        "type": "date",
+        "name": "date",
+        "label": "Date",
+        "placeHolder": "Date"
+      }
+    },
+    "title": "All Allergies ",
+    "description": "You can see all Allergies for this patient...",
+    "getAllergyProblemsForPatient": "http://localhost:8080/pt/getAllergyByIdCB",
+    "getAll": "http://localhost:8080/pt/getAllergyByIdCB",
+    "getAllAllergy": "http://localhost:8080/disease/getAll",
+    "adding": "http://localhost:8080/pt/addOneAllergy",
+    "delete": "http://localhost:8080/pt/deleteOnePtAllergy",
+    "resolve": "http://localhost:8080/pt/resolveOnePtAllergy"
+  },
+
+  "onGoingProblems": {
+    "state": {
+      "problem": "",
+      "date": ""
+    },
+    "columnsTable": {
+      "problem": {
+        "name": "Problem",
+        "selector": "problem",
+        "sortable": true,
+        "center": true
+      },
+      "date": {
+        "name": "Date",
+        "selector": "date",
+
+        "sortable": true,
+        "center": true
+      },
+      "status": {
+        "name": "Status",
+        "selector": "status",
+        "sortable": true,
+        "center": true
+      },
+      "actionsR": {
+        "name": "actions",
+        "selector": "actions",
+        "sortable": false,
+        "center": true,
+        "width": "200px"
+      }
+    },
+    "modalAdditionForms": {
+      "name": {
+        "type": "autoComplete",
+        "name": "problem",
+        "label": "Problem",
+        "placeHolder": "Choose the Disease Type"
+      },
+      "date": {
+        "type": "date",
+        "name": "date",
+        "label": "Date",
+        "placeHolder": "Date"
+      }
+    },
+    "title": "All OnGoingProblems ",
+    "description": "You can see all OnGoingProblems broblems for this patient...",
+    "getAllergyProblemsForPatient": "http://localhost:8080/pt/getProblemsById",
+    "getAll": "http://localhost:8080/visit/getProblemsCD",
+    "getAllDiseases": "http://localhost:8080/disease/getAll",
+    "adding": "http://localhost:8080/visit/addproblemCB",
+    "delete": "http://localhost:8080/pt/deleteOnePtProblem",
+    "resolve": "http://localhost:8080/pt/resolveOnePtProblem"
+  },
+
+  "familyHistory": {
+    "state": {
+      "problem": "",
+      "relation": ""
+    },
+    "modalAdditionForms": {
+      "problem": {
+        "type": "autoComplete",
+        "name": "problem",
+        "label": "Problem",
+        "placeHolder": "Choose the Disease Type"
+      },
+      "relation": {
+        "type": "select",
+        "name": "relation",
+        "label": "Relation",
+        "options": [
+          { "value": "parent", "text": "parent" },
+          { "value": "remote Family", "text": "remote Family" },
+          { "value": "sibling", "text": "sibling" }
+        ],
+        "placeHolder": "Choose the Relationship"
+      }
+    },
+    "columnsTable": {
+      "problem": {
+        "name": "Problem",
+        "selector": "name",
+        "sortable": true,
+        "center": true
+      },
+      "relation": {
+        "name": "Relation",
+        "selector": "relation",
+        "sortable": true,
+        "center": true
+      },
+      "actionsD": {
+        "name": "actions",
+        "selector": "actions",
+        "sortable": false,
+        "center": true,
+        "width": "200px"
+      }
+    },
+    "title": "Family History",
+    "description": "You will see here all Family History to this Patient....",
+    "getAllDiseases": "http://localhost:8080/disease/getAll",
+    "getAll": "http://localhost:8080/visit/pt_familyHistories",
+    "adding": "http://localhost:8080/visit/addfamilyHistories",
+    "delete": "http://localhost:8080/pt/deleteOnept_familyHistories"
+  },
+  "surgeries": {
+    "state": {
+      "name": "",
+      "notes": ""
+    },
+    "modalAdditionForms": {
+      "problem": {
+        "type": "autoComplete",
+        "name": "name",
+        "label": "Name",
+        "placeHolder": "Choose the Surgeries Type"
+      },
+
+      "notes": {
+        "type": "text",
+        "name": "notes",
+        "label": "notes"
+      }
+    },
+    "columnsTable": {
+      "problem": {
+        "name": "Name",
+        "selector": "name",
+        "sortable": true,
+        "center": true
+      },
+      "date": {
+        "name": "Date",
+        "selector": "createdAt",
+        "sortable": true,
+        "center": true
+      },
+      "notes": {
+        "name": "notes",
+        "selector": "notes",
+        "sortable": true,
+        "center": true
+      },
+      "actionsD": {
+        "name": "actions",
+        "selector": "actions",
+        "sortable": false,
+        "center": true,
+        "width": "200px"
+      }
+    },
+    "title": "All Surgeries for this Patient",
+    "description": "You will see here all Surgeries to this Patient....",
+    "getAllDiseases": "http://localhost:8080/surgery/getAll",
+    "getAll": "http://localhost:8080/visit/pt_surgery_histories",
+    "adding": "http://localhost:8080/visit/addsurgerycb",
+    "delete": "http://localhost:8080/pt/deleteOnept_surgery_histories"
+  },
+  "Interventions": {
+    "state": {
+      "name": "",
+      "notes": ""
+    },
+    "modalAdditionForms": {
+      "Intervention": {
+        "type": "text",
+        "name": "name",
+        "label": "Name",
+        "placeHolder": "Intervention name"
+      },
+      "notes": {
+        "type": "text",
+        "name": "notes",
+        "label": "Note"
+      }
+    },
+    "columnsTable": {
+      "name": {
+        "name": "Name",
+        "selector": "name",
+        "sortable": true,
+        "center": true
+      },
+      "date": {
+        "name": "Date",
+        "selector": "date",
+        "sortable": true,
+        "center": true
+      },
+      "note": {
+        "name": "Note",
+        "selector": "notes",
+        "sortable": true,
+        "center": true
+      },
+      "actionsD": {
+        "name": "actions",
+        "selector": "actions",
+        "sortable": false,
+        "center": true,
+        "width": "200px"
+      }
+    },
+    "title": "All Interventions for this Patient",
+    "description": "You will see here all Interventions.",
+    "adding": "http://localhost:8080/visit/addpt_interventions",
+
+    "getAll": "http://localhost:8080/visit/pt_interventions",
+    "delete": "http://localhost:8080/pt/deleteOnept_interventions"
+  },
+  "activeMedication": {
+    "state": {
+      "name": ""
+    },
+    "modalAdditionForms": {
+      "problem": {
+        "type": "autoComplete",
+        "name": "name",
+        "label": "Name",
+        "placeHolder": "Choose the Surgeries Type"
+      }
+    },
+    "columnsTable": {
+      "name": {
+        "name": "Name",
+        "selector": "name",
+        "sortable": true,
+        "center": true
+      }
+    },
+    "title": "All Active Medication for this Patient",
+    "description": "You will see here all Active Medications to this Patient.",
+    "getAllDiseases": "http://localhost:8080/disease/getAll"
+  },
+  "Vitals": {
+    "state": {
+      "pulse": ""
+    },
+    "columnsTable": {
+      "time": {
+        "name": "Time",
+        "selector": "time",
+        "sortable": true
+      },
+      "temperature": {
+        "name": "Temperature",
+        "selector": "temperature",
+        "sortable": true,
+        "center": true
+      },
+
+      "pulse": {
+        "name": "Pulse",
+        "selector": "pulse",
+        "sortable": true,
+        "center": true
+      },
+      "systolic": {
+        "name": "Blood Pressure",
+        "selector": "systolic",
+        "sortable": true,
+        "center": true,
+        "width": "200px"
+      },
+
+      "oxygenSaturation": {
+        "name": "OxygenSaturation",
+        "selector": "oxygenSaturation",
+        "sortable": true
+      },
+      "bloodGlucose": {
+        "name": "Blood Glucose Level",
+        "selector": "bloodGlucoseLevel",
+        "sortable": true,
+        "center": true
+      },
+      "cigarettes:": {
+        "name": "smoking status",
+        "selector": "cigarettes",
+        "sortable": true,
+        "center": true
+      },
+      "title": " Patient Vitals ",
+      "description": "From here you can monitor vitals",
+      "getAll": "http://localhost:8080/nurse/getByPtId"
+    }
+  }
+}
