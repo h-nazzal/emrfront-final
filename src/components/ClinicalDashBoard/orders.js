@@ -143,7 +143,7 @@ class ClinicalOrders extends Component {
     console.log('heeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee')
     this.setState({ loading: true })
 
-    // await fetch(`https://emrtest.herokuapp.com//visit/updateOrder`, {
+    // await fetch(`https://emrtest.herokuapp.com/visit/updateOrder`, {
     await fetch(`${orderType[this.state.type].uploadResult}`, {
       method: 'POST',
       body: Form
@@ -193,7 +193,7 @@ class ClinicalOrders extends Component {
                     this.getTypeByID(row.id)
                     this.handleopenModal()
                     this.setState({ resultToShow: row.result })
-                    //  this.props.history.push(`https://emrtest.herokuapp.com//${this.state.type}/${row.result}`)
+                    //  this.props.history.push(`https://emrtest.herokuapp.com/${this.state.type}/${row.result}`)
                     this.setState({ resultStatus: 'show' })
                   }}
                 >
@@ -243,7 +243,7 @@ class ClinicalOrders extends Component {
       <div className='wrap' style={{ height: '100%' }}>
         <iframe
           style={{ height: '100%', width: '100%' }}
-          src={`https://emrtest.herokuapp.com//labs/1622566485366-adada.pdf`}
+          src={`https://emrtest.herokuapp.com/labs/1622566485366-adada.pdf`}
           title='W3Schools Free Online Web Tutorials'
         ></iframe>
       </div>

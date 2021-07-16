@@ -115,7 +115,7 @@ class Appointement extends Component {
     formBody = formBody.join('&')
     this.setState({ loading: true })
 
-    fetch(`https://emrtest.herokuapp.com//appointment/getById`, {
+    fetch(`https://emrtest.herokuapp.com/appointment/getById`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'
@@ -167,7 +167,7 @@ class Appointement extends Component {
     console.log('formBodu : ', formBody)
     this.setState({ loading: true })
 
-    await fetch(`https://emrtest.herokuapp.com//appointment/getByDate`, {
+    await fetch(`https://emrtest.herokuapp.com/appointment/getByDate`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'
@@ -206,7 +206,7 @@ class Appointement extends Component {
     }
     this.setState({ loading: true })
 
-    fetch('https://emrtest.herokuapp.com//appointment/deleteAppointment', {
+    fetch('https://emrtest.herokuapp.com/appointment/deleteAppointment', {
       method: 'DELETE',
       headers: {
         'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'
@@ -320,7 +320,7 @@ class Appointement extends Component {
     this.setState({ loading: true })
 
     console.log('formBodu : ', formBody)
-    fetch(`https://emrtest.herokuapp.com//appointment/updateAppointment`, {
+    fetch(`https://emrtest.herokuapp.com/appointment/updateAppointment`, {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'
@@ -377,7 +377,7 @@ class Appointement extends Component {
     console.log('formBody:  ', formBody)
     this.setState({ loading: true })
 
-    fetch('https://emrtest.herokuapp.com//session/addSession', {
+    fetch('https://emrtest.herokuapp.com/session/addSession', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -539,7 +539,7 @@ class Appointement extends Component {
     }
     formBody = formBody.join('&')
     console.log('formBodu : ', formBody)
-    fetch(`https://emrtest.herokuapp.com//appointment/addAppoinment`, {
+    fetch(`https://emrtest.herokuapp.com/appointment/addAppoinment`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'
@@ -556,7 +556,7 @@ class Appointement extends Component {
       })
 
     // console.log("type: ", obj);
-    // axios.post(`https://emrtest.herokuapp.com//appointment/addApointment`, obj )
+    // axios.post(`https://emrtest.herokuapp.com/appointment/addApointment`, obj )
     // .then(res => {
     //   console.log(res);
     //   console.log(res.data);

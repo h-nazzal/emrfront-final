@@ -67,29 +67,30 @@ class SessionCode extends Component {
   handleSubmitForNavBarVisits = () => {
     console.log('Visit Submitting... : ')
     axios
-      .post(`https://emrtest.herokuapp.com//autho/getPtId`, {
+      .post(`https://emrtest.herokuapp.com/autho/getPtId`, {
         ptCode: this.state.code
       })
       .then(async resp => {
         console.log('resp.data : ', resp.data)
         window.location.replace(
-          `http://localhost:9000/publicDashBoard/NavBar/visit/${resp.data.id}`
+          `${this.props.history.location.pathname}/${resp.data.id}`
         )
       })
   }
+  // unsure about links in deploy so
   handleSubmitForNavBarLab = () => {
     window.location.replace(
-      `http://localhost:9000/publicDashBoard/choice/lab/acceptOrders/${this.state.code}`
+      `${this.props.history.location.pathname}/${this.state.code}`
     )
   }
   handleSubmitForNavBarPathology = () => {
     window.location.replace(
-      `http://localhost:9000/publicDashBoard/choice/pathology/acceptOrders/${this.state.code}`
+      `${this.props.history.location.pathname}/${this.state.code}`
     )
   }
   handleSubmitForNavBarRadio = () => {
     window.location.replace(
-      `http://localhost:9000/publicDashBoard/choice/radio/acceptOrders/${this.state.code}`
+      `${this.props.history.location.pathname}/${this.state.code}`
     )
   }
   //from public DashBoard ==> choice page
@@ -118,7 +119,7 @@ class SessionCode extends Component {
     ///*** edit it when adding sessionCode in Visit Module */
     console.log('here: ', this.props)
     axios
-      .post(`https://emrtest.herokuapp.com//autho/getPtId`, {
+      .post(`https://emrtest.herokuapp.com/autho/getPtId`, {
         ptCode: this.state.code
       })
       .then(async resp => {
@@ -131,7 +132,7 @@ class SessionCode extends Component {
   }
   handleSubmitForpharmacy = () => {
     axios
-      .post(`https://emrtest.herokuapp.com//autho/getPtId`, {
+      .post(`https://emrtest.herokuapp.com/autho/getPtId`, {
         ptCode: this.state.code
       })
       .then(async resp => {

@@ -72,8 +72,8 @@
         "name": "duration"
       }
     },
-    "getLastTenPrescription": "https://emrtest.herokuapp.com//visit/PrescriptionByDoctor",
-    "getPatientPrescription": "https://emrtest.herokuapp.com//visit/PrescriptionByPatient",
+    "getLastTenPrescription": "https://emrtest.herokuapp.com/visit/PrescriptionByDoctor",
+    "getPatientPrescription": "https://emrtest.herokuapp.com/visit/PrescriptionByPatient",
     "decpinceDrug": ""
   }
 }

@@ -36,7 +36,7 @@
     },
     "title": "All patients On Active Visit",
     "description": "From here you can see All patients on Active visits",
-    "getAll": "https://emrtest.herokuapp.com//session/getSessionByDate"
+    "getAll": "https://emrtest.herokuapp.com/session/getSessionByDate"
   },
   "nurseVitals": {
     "state": {
@@ -137,10 +137,10 @@
     },
     "title": " Patient Vitals ",
     "description": "From here you can monitor and add vitals",
-    "getAll": "https://emrtest.herokuapp.com//session/getSessionByDate",
-    "getPatientLastVisits": "https://emrtest.herokuapp.com//nurse/getByPtId",
-    "deleteVital": "https://emrtest.herokuapp.com//nurse/deleteRecorder",
-    "addVital": "https://emrtest.herokuapp.com//nurse/addRecord",
-    "getAllData": "https://emrtest.herokuapp.com//nurse/getNurse"
+    "getAll": "https://emrtest.herokuapp.com/session/getSessionByDate",
+    "getPatientLastVisits": "https://emrtest.herokuapp.com/nurse/getByPtId",
+    "deleteVital": "https://emrtest.herokuapp.com/nurse/deleteRecorder",
+    "addVital": "https://emrtest.herokuapp.com/nurse/addRecord",
+    "getAllData": "https://emrtest.herokuapp.com/nurse/getNurse"
   }
 }

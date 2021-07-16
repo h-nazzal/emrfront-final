@@ -61,13 +61,13 @@ export default function Profile (props) {
     data.append('userId', userId)
     setLoading(true)
 
-    // axios.post('https://emrtest.herokuapp.com//authenticate/update_phote',data).then(result=>{
+    // axios.post('https://emrtest.herokuapp.com/authenticate/update_phote',data).then(result=>{
     axios
-      .post('https://emrtest.herokuapp.com//profile/photo', data)
+      .post('https://emrtest.herokuapp.com/profile/photo', data)
       .then(result => {
         setLoading(false)
         console.log(result.data)
-        setImg('https://emrtest.herokuapp.com//images/' + result.data)
+        setImg('https://emrtest.herokuapp.com/images/' + result.data)
       })
       .catch(err => {
         setLoading(false)
@@ -82,20 +82,19 @@ export default function Profile (props) {
 
   //function to retrieve the user data with userId
   const getUser = () => {
-    // axios.get('https://emrtest.herokuapp.com//profile/user/'+userId).then(result=>{
+    // axios.get('https://emrtest.herokuapp.com/profile/user/'+userId).then(result=>{
     setLoading(true)
 
     axios
       .get(
-        'https://emrtest.herokuapp.com//authenticate/update_phote/user/' +
-          userId
+        'https://emrtest.herokuapp.com/authenticate/update_phote/user/' + userId
       )
       .then(result => {
         console.log('result :   ', result)
         setUser(result.data)
         setLoading(false)
 
-        setImg('https://emrtest.herokuapp.com//images/' + result.data.image)
+        setImg('https://emrtest.herokuapp.com/images/' + result.data.image)
         console.log(img)
       })
       .catch(err => {

@@ -66,7 +66,7 @@ const ForgotPasswordCode = () => {
     }
     formBody = formBody.join('&')
 
-    await fetch('https://emrtest.herokuapp.com//autho/getCode', {
+    await fetch('https://emrtest.herokuapp.com/autho/getCode', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'

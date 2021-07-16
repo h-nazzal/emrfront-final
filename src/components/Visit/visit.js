@@ -144,7 +144,7 @@ export default function Visit ({ match }) {
     formBody = formBody.join('&')
     console.log('formBody:  ', formBody)
     setLoading(true)
-    fetch('https://emrtest.herokuapp.com//visit/addVisit', {
+    fetch('https://emrtest.herokuapp.com/visit/addVisit', {
       // ***********endpoint For Add Visit Change it with the new url
       method: 'POST',
       headers: {

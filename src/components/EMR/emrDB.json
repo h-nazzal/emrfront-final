@@ -42,6 +42,6 @@
     },
     "title": "All Doctor Patients",
     "description": "you will see here all your Patients",
-    "getAllDoctorPatients": "https://emrtest.herokuapp.com//visit/getallPt"
+    "getAllDoctorPatients": "https://emrtest.herokuapp.com/visit/getallPt"
   }
 }

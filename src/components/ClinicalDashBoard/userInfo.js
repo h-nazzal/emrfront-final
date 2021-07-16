@@ -27,7 +27,7 @@ class UserInfo extends Component {
     }
     formBody = formBody.join('&')
     await axios
-      .post(`https://emrtest.herokuapp.com//pt/findPt`, formBody)
+      .post(`https://emrtest.herokuapp.com/pt/findPt`, formBody)
       .then(async resp => {
         // return resp.data;
         await this.setState({ user: resp.data[0] })

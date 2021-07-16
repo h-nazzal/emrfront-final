@@ -267,7 +267,7 @@ class AllergyStep extends Component {
     console.log('====================================================')
     var temp2 = []
     await axios
-      .get('https://emrtest.herokuapp.com//allergy/getAllergy', {})
+      .get('https://emrtest.herokuapp.com/allergy/getAllergy', {})
       .then(async resp => {
         console.log('AllIncomingData: ', resp.data)
 

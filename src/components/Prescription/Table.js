@@ -86,7 +86,7 @@ const Table = forwardRef((props, ref) => {
     console.log(arr)
     //delete from database
     axios
-      .post('https://emrtest.herokuapp.com//visit/deletePrescription_Drugs', {
+      .post('https://emrtest.herokuapp.com/visit/deletePrescription_Drugs', {
         ids: arr
       })
       .then(res => {

@@ -53,7 +53,7 @@ export default function ChiefComplains ({
   const [deseases, setDeases] = useState([])
   const classes = useStyles()
   useEffect(() => {
-    fetch(`https://emrtest.herokuapp.com//disease/getAll`, {
+    fetch(`https://emrtest.herokuapp.com/disease/getAll`, {
       // will get all desease names to show in multiChoice
       method: 'GET',
       headers: {

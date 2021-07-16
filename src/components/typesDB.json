@@ -42,10 +42,10 @@
         "placeHolder": "Choose Allergy Type"
       }
     },
-    "addType": "https://emrtest.herokuapp.com//allergy/addAllergy",
-    "deleteType": "https://emrtest.herokuapp.com//allergy/deleteAllergy",
-    "updateType": "https://emrtest.herokuapp.com//allergy/updateAllergy",
-    "getAll": "https://emrtest.herokuapp.com//allergy/getAllergy"
+    "addType": "https://emrtest.herokuapp.com/allergy/addAllergy",
+    "deleteType": "https://emrtest.herokuapp.com/allergy/deleteAllergy",
+    "updateType": "https://emrtest.herokuapp.com/allergy/updateAllergy",
+    "getAll": "https://emrtest.herokuapp.com/allergy/getAllergy"
   },
   "disease": {
     "state": {
@@ -99,10 +99,10 @@
     },
     "title": "All Diseases Types",
     "description": "You will find All Diseases here..",
-    "addType": "https://emrtest.herokuapp.com//disease/addDiseases",
-    "deleteType": "https://emrtest.herokuapp.com//disease/deleteDiseases",
-    "updateType": "https://emrtest.herokuapp.com//disease/updateDiseases",
-    "getAll": "https://emrtest.herokuapp.com//disease/getAll"
+    "addType": "https://emrtest.herokuapp.com/disease/addDiseases",
+    "deleteType": "https://emrtest.herokuapp.com/disease/deleteDiseases",
+    "updateType": "https://emrtest.herokuapp.com/disease/updateDiseases",
+    "getAll": "https://emrtest.herokuapp.com/disease/getAll"
   },
   "drug": {
     "state": {
@@ -132,10 +132,10 @@
     },
     "title": "All Drugs Types",
     "description": "You will find all Drugs here..",
-    "addType": "https://emrtest.herokuapp.com//drug/addDrug",
-    "deleteType": "https://emrtest.herokuapp.com//drug/deleteDrug",
-    "updateType": "https://emrtest.herokuapp.com//drug/updateDrug",
-    "getAll": "https://emrtest.herokuapp.com//drug/getAll"
+    "addType": "https://emrtest.herokuapp.com/drug/addDrug",
+    "deleteType": "https://emrtest.herokuapp.com/drug/deleteDrug",
+    "updateType": "https://emrtest.herokuapp.com/drug/updateDrug",
+    "getAll": "https://emrtest.herokuapp.com/drug/getAll"
   },
 
   "lab": {
@@ -181,10 +181,10 @@
         "placeHolder": "Enter Lab Abbreviation"
       }
     },
-    "addType": "https://emrtest.herokuapp.com//lab/addlab",
-    "deleteType": "https://emrtest.herokuapp.com//lab/deletelab",
-    "updateType": "https://emrtest.herokuapp.com//lab/updatedlab",
-    "getAll": "https://emrtest.herokuapp.com//lab/getAll"
+    "addType": "https://emrtest.herokuapp.com/lab/addlab",
+    "deleteType": "https://emrtest.herokuapp.com/lab/deletelab",
+    "updateType": "https://emrtest.herokuapp.com/lab/updatedlab",
+    "getAll": "https://emrtest.herokuapp.com/lab/getAll"
   },
   "pathology": {
     "state": {
@@ -229,10 +229,10 @@
         "placeHolder": "Enter Pathology abbreviation"
       }
     },
-    "addType": "https://emrtest.herokuapp.com//patho/addpatho",
-    "deleteType": "https://emrtest.herokuapp.com//patho/deletepatho",
-    "updateType": "https://emrtest.herokuapp.com//patho/updatedpatho",
-    "getAll": "https://emrtest.herokuapp.com//patho/getAll"
+    "addType": "https://emrtest.herokuapp.com/patho/addpatho",
+    "deleteType": "https://emrtest.herokuapp.com/patho/deletepatho",
+    "updateType": "https://emrtest.herokuapp.com/patho/updatedpatho",
+    "getAll": "https://emrtest.herokuapp.com/patho/getAll"
   },
   "radiology": {
     "state": {
@@ -277,10 +277,10 @@
         "placeHolder": "Enter Radio Abbreviation"
       }
     },
-    "addType": "https://emrtest.herokuapp.com//radio/addRadio",
-    "deleteType": "https://emrtest.herokuapp.com//radio/deleteRadio",
-    "updateType": "https://emrtest.herokuapp.com//radio/updatedRadio",
-    "getAll": "https://emrtest.herokuapp.com//radio/getAll"
+    "addType": "https://emrtest.herokuapp.com/radio/addRadio",
+    "deleteType": "https://emrtest.herokuapp.com/radio/deleteRadio",
+    "updateType": "https://emrtest.herokuapp.com/radio/updatedRadio",
+    "getAll": "https://emrtest.herokuapp.com/radio/getAll"
   },
   "surgeries": {
     "state": {
@@ -325,9 +325,9 @@
         "placeHolder": "Enter Surgery Abbreviation"
       }
     },
-    "addType": "https://emrtest.herokuapp.com//surgery/addsurgery",
-    "deleteType": "https://emrtest.herokuapp.com//surgery/deletesurgery",
-    "updateType": "https://emrtest.herokuapp.com//surgery/updatedsurgery",
-    "getAll": "https://emrtest.herokuapp.com//surgery/getAll"
+    "addType": "https://emrtest.herokuapp.com/surgery/addsurgery",
+    "deleteType": "https://emrtest.herokuapp.com/surgery/deletesurgery",
+    "updateType": "https://emrtest.herokuapp.com/surgery/updatedsurgery",
+    "getAll": "https://emrtest.herokuapp.com/surgery/getAll"
   }
 }
